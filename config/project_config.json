@@ -1,0 +1,37 @@
+{
+  "project": "LightSync",
+  "timezone": "Asia/Kolkata",
+  "station_timezone_status": "interpreted_as_campus_local_pending_provider_confirmation",
+  "campus_proxy": {
+    "latitude": 26.18748,
+    "longitude": 91.69056,
+    "elevation_m": 0,
+    "scope": "campus_proxy_not_individual_location_or_sensor_gps",
+    "source_url": "https://asdma.assam.gov.in/sites/default/files/Seismic_Microzonation.pdf"
+  },
+  "power_ratings": {
+    "floodlight": {"watts": 200, "source_id": "PWR_FLOOD", "source_url": "https://www.lighting.philips.co.in/prof/outdoor-luminaires/sports-and-area-floodlighting/area-and-recreational-floodlighting/smartbright-essential-pro-flood-light/919615896610_EU/product"},
+    "streetlight": {"watts": 90, "source_id": "PWR_STREET", "source_url": "https://www.signify.com/global/prof/outdoor-luminaires/road-and-street/philips-roadflair-pro/LP_CF_BRP59_EU/family"},
+    "tube_light": {"watts": 20, "source_id": "PWR_TUBE", "source_url": "https://www.lighting.philips.co.in/consumer/p/battens-astraline/8718696583241"}
+  },
+  "power_basis": "published_manufacturer_rating_selected_for_calculation",
+  "location_ids": {
+    "IITG Border Road": "LOC001",
+    "Surjyamukhi Road": "LOC002",
+    "IIT Road": "LOC003",
+    "Radhasura Road": "LOC004",
+    "Godhuli Gopal Road": "LOC005",
+    "Umiam Hostel Road": "LOC006",
+    "KV Road": "LOC007",
+    "Disang Road": "LOC008",
+    "Lohit Hostel": "LOC009",
+    "Disang Hostel": "LOC010"
+  },
+  "border_road_name": "IITG Border Road",
+  "nonworking_ranges": {"floodlight": [3, 4], "streetlight": [1, 2], "tube_light": [0, 0]},
+  "validation_start": "2024-09-01",
+  "test_start": "2024-10-01",
+  "electricity_tariff_inr_per_kwh": null,
+  "grid_emission_factor_kg_co2_per_kwh": null,
+  "sources_checked_date": "2026-09-27"
+}

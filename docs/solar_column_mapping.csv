@@ -1,0 +1,48 @@
+source_column,clean_column
+Date & Time,timestamp_source_text
+Inside Temp - °C,inside_temp_c
+High Inside Temp - °C,high_inside_temp_c
+Low Inside Temp - °C,low_inside_temp_c
+Inside Hum - %,inside_hum_pct
+High Inside Hum - %,high_inside_hum_pct
+Low Inside Hum - %,low_inside_hum_pct
+Inside Dew Point - °C,inside_dew_point_c
+Inside Heat Index - °C,inside_heat_index_c
+Barometer - mm Hg,barometer_mmhg
+High Bar - mm Hg,high_bar_mmhg
+Low Bar - mm Hg,low_bar_mmhg
+Absolute Pressure - mm Hg,absolute_pressure_mmhg
+Temp - °C,temp_c
+High Temp - °C,high_temp_c
+Low Temp - °C,low_temp_c
+Hum - %,hum_pct
+High Hum - %,high_hum_pct
+Low Hum - %,low_hum_pct
+Dew Point - °C,dew_point_c
+High Dew Point - °C,high_dew_point_c
+Low Dew Point - °C,low_dew_point_c
+Wet Bulb - °C,wet_bulb_c
+High Wet Bulb - °C,high_wet_bulb_c
+Low Wet Bulb - °C,low_wet_bulb_c
+Avg Wind Speed - m/s,avg_wind_speed_m_s
+Prevailing Wind Direction,prevailing_wind_direction
+High Wind Speed - m/s,high_wind_speed_m_s
+High Wind Direction,high_wind_direction
+Wind Chill - °C,wind_chill_c
+Low Wind Chill - °C,low_wind_chill_c
+Heat Index - °C,heat_index_c
+High Heat Index - °C,high_heat_index_c
+THW Index - °C,thw_index_c
+High THW Index - °C,high_thw_index_c
+Low THW Index - °C,low_thw_index_c
+Wind Run - m,wind_run_m
+THSW Index - °C,thsw_index_c
+High THSW Index - °C,high_thsw_index_c
+Low THSW Index - °C,low_thsw_index_c
+Rain - mm,rain_mm
+High Rain Rate - mm/h,high_rain_rate_mm_h
+Solar Rad - W/m^2,solar_radiation_w_m2
+High Solar Rad - W/m^2,high_solar_rad_w_m2
+ET - mm,et_mm
+Heating Degree Days,heating_degree_days
+Cooling Degree Days,cooling_degree_days

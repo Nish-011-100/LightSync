@@ -1,0 +1,138 @@
+[
+  {
+    "dataset": "solar_weather_clean",
+    "rows": 33441,
+    "columns": 53,
+    "files": [
+      {
+        "path": "data/processed/solar_weather_clean.csv",
+        "sha256": "327f2cc1477fca8163469adf1b395f6cccba07e11ea3c71437ccf0f0d99670b8",
+        "bytes": 9349451
+      },
+      {
+        "path": "data/processed/solar_weather_clean.parquet",
+        "sha256": "797b695d5f9142c74249223e72107bb39f288770986d7c4c40e22596abb8b30e",
+        "bytes": 1317912
+      }
+    ]
+  },
+  {
+    "dataset": "solar_15min_grid",
+    "rows": 35041,
+    "columns": 16,
+    "files": [
+      {
+        "path": "data/processed/solar_15min_grid.csv",
+        "sha256": "53bf667626f7660574f06787eec963a00de362143c17fbe71a427096a5231824",
+        "bytes": 5518168
+      },
+      {
+        "path": "data/processed/solar_15min_grid.parquet",
+        "sha256": "8d2dabb9d9d62a786666bcd33fcc381ae01e11cea8ce2c7ed0e7efd1f16aceb3",
+        "bytes": 886498
+      }
+    ]
+  },
+  {
+    "dataset": "solar_model_input",
+    "rows": 20193,
+    "columns": 12,
+    "files": [
+      {
+        "path": "data/processed/solar_model_input.csv",
+        "sha256": "b021a7b6d823aeddf605b86e68dab69d5a8a9389417c3f848476abb6ad623d26",
+        "bytes": 2356178
+      },
+      {
+        "path": "data/processed/solar_model_input.parquet",
+        "sha256": "3da568d486ffdb168a16942ee16dda884e654766574e9c929a0c39012db32419",
+        "bytes": 529254
+      }
+    ]
+  },
+  {
+    "dataset": "solar_daily_coverage",
+    "rows": 366,
+    "columns": 8,
+    "files": [
+      {
+        "path": "data/processed/solar_daily_coverage.csv",
+        "sha256": "84300cad8b866ce53ca27845009fd8dbde28a90509ea0d9358c42cd87aeba716",
+        "bytes": 14073
+      },
+      {
+        "path": "data/processed/solar_daily_coverage.parquet",
+        "sha256": "86b4ccf0e494e2e696949378a1369ba95b40483e082fd0c7306331a074ae959f",
+        "bytes": 10161
+      }
+    ]
+  },
+  {
+    "dataset": "locations",
+    "rows": 10,
+    "columns": 27,
+    "files": [
+      {
+        "path": "data/processed/locations.csv",
+        "sha256": "4ad166ed8530ce556d29ff3eaacb75ec979eda0a80dc5e89b037323a1945697f",
+        "bytes": 5708
+      },
+      {
+        "path": "data/processed/locations.parquet",
+        "sha256": "fa2d167ab6f232f89f86406f0e81801a074f001300dbdd7c52e0bf0ff477c9f2",
+        "bytes": 18824
+      }
+    ]
+  },
+  {
+    "dataset": "switching_observations",
+    "rows": 20,
+    "columns": 11,
+    "files": [
+      {
+        "path": "data/processed/switching_observations.csv",
+        "sha256": "ddd707246284c54975e294f5cc4a1b32b7e69530dfb97999f40977d8807ad510",
+        "bytes": 2749
+      },
+      {
+        "path": "data/processed/switching_observations.parquet",
+        "sha256": "9e9625a85ee9448a68883e8ccc7f79143acdf2d99cac4f8963602cd51c612331",
+        "bytes": 8116
+      }
+    ]
+  },
+  {
+    "dataset": "manual_energy_baseline",
+    "rows": 20,
+    "columns": 12,
+    "files": [
+      {
+        "path": "data/processed/manual_energy_baseline.csv",
+        "sha256": "d8749f6af430f5308946bad7c58b9defbb606f6ec529fde8d82a76c1d2cdacdc",
+        "bytes": 2689
+      },
+      {
+        "path": "data/processed/manual_energy_baseline.parquet",
+        "sha256": "5810aa15027997c69262a3b5bbaf813837995d279fc73c360a009df6fecb3656",
+        "bytes": 9095
+      }
+    ]
+  },
+  {
+    "dataset": "astronomy_daily",
+    "rows": 3,
+    "columns": 10,
+    "files": [
+      {
+        "path": "data/processed/astronomy_daily.csv",
+        "sha256": "8e31d804826ae9007af469edb7870c871214b6346b2f522db56f832cbcfdb15b",
+        "bytes": 828
+      },
+      {
+        "path": "data/processed/astronomy_daily.parquet",
+        "sha256": "aecaf8ae6c39673abd720173f07586cc9f7b5f6e2364870909c89529cfab0769",
+        "bytes": 7538
+      }
+    ]
+  }
+]

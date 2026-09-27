@@ -1,0 +1,12 @@
+[
+  {
+    "path": "data/raw/solar_station_original.csv",
+    "sha256": "5d3a3f63bf60ca3d92ffd8c9f365d0f0f48cb20c56deaf991be9bb3d57810e81",
+    "bytes": 8865161
+  },
+  {
+    "path": "data/raw/lighting_observations_original.xlsx",
+    "sha256": "2592bd719e65ac6aab3117cde7b5ace27b64a9fe3726e10c8710a4ad27f81866",
+    "bytes": 227551
+  }
+]

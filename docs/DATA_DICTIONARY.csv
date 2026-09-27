@@ -1,0 +1,150 @@
+dataset,column,dtype,unit,missing_rows,definition
+solar_weather_clean,timestamp_local,"datetime64[us, Asia/Kolkata]","ISO 8601, Asia/Kolkata (+05:30)",0,Station timestamp interpreted as Asia/Kolkata; offset retained. Provider timezone confirmation pending.
+solar_weather_clean,source_row_number,int64,see definition,0,One-based CSV physical line including five metadata lines and header; missing on added grid rows.
+solar_weather_clean,timestamp_source_text,str,see definition,0,Source station field: Date & Time; missing values preserved.
+solar_weather_clean,inside_temp_c,int64,°C,0,Source station field: Inside Temp - °C; missing values preserved.
+solar_weather_clean,high_inside_temp_c,int64,°C,0,Source station field: High Inside Temp - °C; missing values preserved.
+solar_weather_clean,low_inside_temp_c,int64,°C,0,Source station field: Low Inside Temp - °C; missing values preserved.
+solar_weather_clean,inside_hum_pct,int64,%,0,Source station field: Inside Hum - %; missing values preserved.
+solar_weather_clean,high_inside_hum_pct,int64,%,0,Source station field: High Inside Hum - %; missing values preserved.
+solar_weather_clean,low_inside_hum_pct,int64,%,0,Source station field: Low Inside Hum - %; missing values preserved.
+solar_weather_clean,inside_dew_point_c,int64,°C,0,Source station field: Inside Dew Point - °C; missing values preserved.
+solar_weather_clean,inside_heat_index_c,int64,°C,0,Source station field: Inside Heat Index - °C; missing values preserved.
+solar_weather_clean,barometer_mmhg,float64,mmHg,0,Source station field: Barometer - mm Hg; missing values preserved.
+solar_weather_clean,high_bar_mmhg,float64,mmHg,0,Source station field: High Bar - mm Hg; missing values preserved.
+solar_weather_clean,low_bar_mmhg,float64,mmHg,0,Source station field: Low Bar - mm Hg; missing values preserved.
+solar_weather_clean,absolute_pressure_mmhg,float64,mmHg,0,Source station field: Absolute Pressure - mm Hg; missing values preserved.
+solar_weather_clean,temp_c,float64,°C,11992,Source station field: Temp - °C; missing values preserved.
+solar_weather_clean,high_temp_c,float64,°C,11797,Source station field: High Temp - °C; missing values preserved.
+solar_weather_clean,low_temp_c,float64,°C,11797,Source station field: Low Temp - °C; missing values preserved.
+solar_weather_clean,hum_pct,float64,%,11971,Source station field: Hum - %; missing values preserved.
+solar_weather_clean,high_hum_pct,float64,%,11788,Source station field: High Hum - %; missing values preserved.
+solar_weather_clean,low_hum_pct,float64,%,11788,Source station field: Low Hum - %; missing values preserved.
+solar_weather_clean,dew_point_c,float64,°C,12531,Source station field: Dew Point - °C; missing values preserved.
+solar_weather_clean,high_dew_point_c,float64,°C,12353,Source station field: High Dew Point - °C; missing values preserved.
+solar_weather_clean,low_dew_point_c,float64,°C,12353,Source station field: Low Dew Point - °C; missing values preserved.
+solar_weather_clean,wet_bulb_c,float64,°C,12393,Source station field: Wet Bulb - °C; missing values preserved.
+solar_weather_clean,high_wet_bulb_c,float64,°C,12126,Source station field: High Wet Bulb - °C; missing values preserved.
+solar_weather_clean,low_wet_bulb_c,float64,°C,12071,Source station field: Low Wet Bulb - °C; missing values preserved.
+solar_weather_clean,avg_wind_speed_m_s,float64,m/s,9979,Source station field: Avg Wind Speed - m/s; missing values preserved.
+solar_weather_clean,prevailing_wind_direction,str,see definition,12826,Source station field: Prevailing Wind Direction; missing values preserved.
+solar_weather_clean,high_wind_speed_m_s,float64,m/s,9979,Source station field: High Wind Speed - m/s; missing values preserved.
+solar_weather_clean,high_wind_direction,str,see definition,12093,Source station field: High Wind Direction; missing values preserved.
+solar_weather_clean,wind_chill_c,float64,°C,12220,Source station field: Wind Chill - °C; missing values preserved.
+solar_weather_clean,low_wind_chill_c,float64,°C,12213,Source station field: Low Wind Chill - °C; missing values preserved.
+solar_weather_clean,heat_index_c,float64,°C,12629,Source station field: Heat Index - °C; missing values preserved.
+solar_weather_clean,high_heat_index_c,float64,°C,12612,Source station field: High Heat Index - °C; missing values preserved.
+solar_weather_clean,thw_index_c,float64,°C,12629,Source station field: THW Index - °C; missing values preserved.
+solar_weather_clean,high_thw_index_c,float64,°C,12627,Source station field: High THW Index - °C; missing values preserved.
+solar_weather_clean,low_thw_index_c,float64,°C,12627,Source station field: Low THW Index - °C; missing values preserved.
+solar_weather_clean,wind_run_m,float64,see definition,9979,Source station field: Wind Run - m; missing values preserved.
+solar_weather_clean,thsw_index_c,float64,°C,13560,Source station field: THSW Index - °C; missing values preserved.
+solar_weather_clean,high_thsw_index_c,float64,°C,13551,Source station field: High THSW Index - °C; missing values preserved.
+solar_weather_clean,low_thsw_index_c,float64,°C,13551,Source station field: Low THSW Index - °C; missing values preserved.
+solar_weather_clean,rain_mm,float64,mm,0,Source station field: Rain - mm; missing values preserved.
+solar_weather_clean,high_rain_rate_mm_h,float64,mm/h,11137,Source station field: High Rain Rate - mm/h; missing values preserved.
+solar_weather_clean,solar_radiation_w_m2,float64,W/m²,13248,Source station field: Solar Rad - W/m^2; missing values preserved.
+solar_weather_clean,high_solar_rad_w_m2,float64,W/m²,13248,Source station field: High Solar Rad - W/m^2; missing values preserved.
+solar_weather_clean,et_mm,float64,mm,28037,Source station field: ET - mm; missing values preserved.
+solar_weather_clean,heating_degree_days,float64,see definition,11992,Source station field: Heating Degree Days; missing values preserved.
+solar_weather_clean,cooling_degree_days,float64,see definition,11992,Source station field: Cooling Degree Days; missing values preserved.
+solar_weather_clean,radiation_valid,bool,see definition,0,"True when source radiation exists, is finite and nonnegative; no imputation."
+solar_weather_clean,radiation_status,str,see definition,0,"observed, missing_measurement, invalid_measurement, or missing_source_row."
+solar_weather_clean,source_kind,str,see definition,0,Provenance: historical station observation or deterministic Astral calculation.
+solar_weather_clean,timezone_status,str,see definition,0,Whether the station timezone was verified; presently interpreted as campus local.
+solar_15min_grid,timestamp_local,"datetime64[us, Asia/Kolkata]","ISO 8601, Asia/Kolkata (+05:30)",0,Station timestamp interpreted as Asia/Kolkata; offset retained. Provider timezone confirmation pending.
+solar_15min_grid,source_row_number,Int64,see definition,1600,One-based CSV physical line including five metadata lines and header; missing on added grid rows.
+solar_15min_grid,solar_radiation_w_m2,float64,W/m²,14848,Source station field: Solar Rad - W/m^2; missing values preserved.
+solar_15min_grid,radiation_valid,bool,see definition,0,"True when source radiation exists, is finite and nonnegative; no imputation."
+solar_15min_grid,radiation_status,str,see definition,0,"observed, missing_measurement, invalid_measurement, or missing_source_row."
+solar_15min_grid,source_row_present,bool,see definition,0,True if a timestamp existed in the original station CSV; false for grid-only rows.
+solar_15min_grid,local_date,str,see definition,0,"Calendar date in Asia/Kolkata, YYYY-MM-DD."
+solar_15min_grid,minute_of_day,int32,see definition,0,"Local hour times 60 plus minute, 0 to 1439."
+solar_15min_grid,day_of_year,int32,see definition,0,"One-based local day of year, 1 to 365/366."
+solar_15min_grid,month,int32,see definition,0,"Local calendar month, 1 to 12."
+solar_15min_grid,time_sin,float64,see definition,0,"Sine of 2*pi*minute_of_day/1440, dimensionless."
+solar_15min_grid,time_cos,float64,see definition,0,"Cosine of 2*pi*minute_of_day/1440, dimensionless."
+solar_15min_grid,year_sin,float64,see definition,0,"Sine of annual cycle using zero-based day and actual 365/366-day year, dimensionless."
+solar_15min_grid,year_cos,float64,see definition,0,"Cosine of annual cycle using zero-based day and actual 365/366-day year, dimensionless."
+solar_15min_grid,solar_elevation_deg,float64,degrees,0,"Astral geometric elevation at the campus proxy, refraction disabled; not measured local daylight."
+solar_15min_grid,geometry_scope,str,see definition,0,"campus_proxy: common astronomical location, not verified fixture or sensor coordinates."
+solar_model_input,timestamp_local,"datetime64[us, Asia/Kolkata]","ISO 8601, Asia/Kolkata (+05:30)",0,Station timestamp interpreted as Asia/Kolkata; offset retained. Provider timezone confirmation pending.
+solar_model_input,source_row_number,Int64,see definition,0,One-based CSV physical line including five metadata lines and header; missing on added grid rows.
+solar_model_input,minute_of_day,int32,see definition,0,"Local hour times 60 plus minute, 0 to 1439."
+solar_model_input,day_of_year,int32,see definition,0,"One-based local day of year, 1 to 365/366."
+solar_model_input,month,int32,see definition,0,"Local calendar month, 1 to 12."
+solar_model_input,time_sin,float64,see definition,0,"Sine of 2*pi*minute_of_day/1440, dimensionless."
+solar_model_input,time_cos,float64,see definition,0,"Cosine of 2*pi*minute_of_day/1440, dimensionless."
+solar_model_input,year_sin,float64,see definition,0,"Sine of annual cycle using zero-based day and actual 365/366-day year, dimensionless."
+solar_model_input,year_cos,float64,see definition,0,"Cosine of annual cycle using zero-based day and actual 365/366-day year, dimensionless."
+solar_model_input,solar_elevation_deg,float64,degrees,0,"Astral geometric elevation at the campus proxy, refraction disabled; not measured local daylight."
+solar_model_input,solar_radiation_w_m2,float64,W/m²,0,Source station field: Solar Rad - W/m^2; missing values preserved.
+solar_model_input,split,str,see definition,0,Chronological train before September 2024; validation September; test October onward.
+solar_daily_coverage,local_date,str,see definition,0,"Calendar date in Asia/Kolkata, YYYY-MM-DD."
+solar_daily_coverage,expected_slots_in_export_window,int64,count,0,15-minute grid slots inside the export span for this date; final partial day is not forced to 96.
+solar_daily_coverage,source_rows_present,int64,count,0,Number of original station rows on this date.
+solar_daily_coverage,valid_radiation_slots,int64,count,0,"Number of finite, nonnegative source radiation readings on this date."
+solar_daily_coverage,missing_source_slots,int64,count,0,Expected grid slots minus original source rows.
+solar_daily_coverage,missing_or_invalid_radiation_slots,int64,count,0,"Expected grid slots minus valid radiation readings, including absent rows."
+solar_daily_coverage,radiation_coverage_fraction,float64,see definition,0,Valid radiation slots divided by expected slots within the export window; 0 to 1.
+solar_daily_coverage,partial_export_day,bool,see definition,0,True if the export window contains fewer than 96 slots for the date.
+locations,location_id,str,see definition,0,Stable project-assigned location identifier; not a surveyed asset/GPS identifier.
+locations,location_name,str,see definition,0,"User-supplied location name, surrounding whitespace removed; spelling preserved."
+locations,site_type,str,see definition,0,"outdoor_road or corridor, based on user classification."
+locations,fixture_type,str,see definition,0,"floodlight, streetlight or tube_light; incorporates user conversation corrections."
+locations,source_workbook_type,str,see definition,0,"Original Type value from the workbook, retained for traceability."
+locations,main_obstruction,str,see definition,0,User-reported category; no quantitative transmission or illuminance implied.
+locations,installed_lights,int64,count,0,User-assumed installed fixture count; not a measured or field-counted inventory. Counted once across repeated nights.
+locations,nonworking_min,int64,count,0,"Lower scenario count of potentially nonworking fixtures; occasional user estimate, not a dated inspection."
+locations,nonworking_max,int64,count,0,"Upper scenario count of potentially nonworking fixtures; occasional user estimate, not a dated inspection."
+locations,working_lights_min,int64,count,0,Installed minus nonworking_max; corridor value includes all installed fixtures.
+locations,working_lights_max,int64,count,0,Installed minus nonworking_min; corridor value includes all installed fixtures.
+locations,availability_basis,str,see definition,0,"Road: occasional user failure estimate. Corridor: no failures reported, all installed used for calculation."
+locations,rated_power_w,int64,W/fixture,0,"Fixed per-fixture calculation power: floodlight 200, streetlight 90, LED tube/batten variant 20 W."
+locations,power_basis,str,see definition,0,Published manufacturer rating selected for calculation; not measured campus power.
+locations,power_source_id,str,see definition,0,Identifier of the power-rating reference in project_config.json.
+locations,power_source_url,str,see definition,0,"Manufacturer page supporting the selected rating, not evidence of installed campus model."
+locations,installed_model_verified,bool,see definition,0,False until the installed model is confirmed from a label or campus record.
+locations,technology_status,str,see definition,0,LED example used for calculation; installed lamp technology has not been verified.
+locations,latitude,float64,decimal degrees,10,"Exact location latitude, currently missing pending verification."
+locations,longitude,float64,decimal degrees,10,"Exact location longitude, currently missing pending verification."
+locations,coordinate_status,str,see definition,0,Status of individual location coordinates; currently unverified.
+locations,astronomy_latitude,float64,decimal degrees,0,"Common campus proxy latitude from the documented ASDMA source, not individual location GPS."
+locations,astronomy_longitude,float64,decimal degrees,0,"Common campus proxy longitude from the documented ASDMA source, not individual location GPS."
+locations,geometry_scope,str,see definition,0,"campus_proxy: common astronomical location, not verified fixture or sensor coordinates."
+locations,timezone,str,see definition,0,IANA timezone for local switching records and derived campus astronomy.
+locations,inventory_source,str,see definition,0,User workbook plus explicit conversation corrections to type/count interpretation.
+switching_observations,observation_id,str,see definition,0,Stable location ID plus ON calendar date; one observed overnight interval.
+switching_observations,location_id,str,see definition,0,Stable project-assigned location identifier; not a surveyed asset/GPS identifier.
+switching_observations,on_timestamp_local,"datetime64[us, Asia/Kolkata]","ISO 8601, Asia/Kolkata (+05:30)",0,"Observed ON date/time supplied by user, interpreted in campus local timezone."
+switching_observations,off_timestamp_local,"datetime64[us, Asia/Kolkata]","ISO 8601, Asia/Kolkata (+05:30)",0,"Observed OFF date/time supplied by user, interpreted in campus local timezone."
+switching_observations,night_start_date,str,see definition,0,"Local calendar date of the observed ON event, YYYY-MM-DD."
+switching_observations,manual_on_duration_hours,float64,hours,0,Elapsed hours from observed ON to observed OFF; continuous operation is not independently verified.
+switching_observations,timing_basis,str,see definition,0,user_observed: switching endpoints were described by user as actual observations.
+switching_observations,timing_resolution_minutes,float64,see definition,20,"Observation uncertainty/cadence not supplied; missing, not assumed minute-level precision."
+switching_observations,source_excel_row,int64,see definition,0,One-based row in the original Fill here sheet.
+switching_observations,source_sheet,str,see definition,0,Name of original workbook sheet containing the observation.
+switching_observations,continuous_on_between_endpoints_verified,bool,see definition,0,"False: only endpoints were supplied, no continuous electrical-state log."
+manual_energy_baseline,observation_id,str,see definition,0,Stable location ID plus ON calendar date; one observed overnight interval.
+manual_energy_baseline,location_id,str,see definition,0,Stable project-assigned location identifier; not a surveyed asset/GPS identifier.
+manual_energy_baseline,night_start_date,str,see definition,0,"Local calendar date of the observed ON event, YYYY-MM-DD."
+manual_energy_baseline,manual_on_duration_hours,float64,hours,0,Elapsed hours from observed ON to observed OFF; continuous operation is not independently verified.
+manual_energy_baseline,rated_power_w,int64,W/fixture,0,"Fixed per-fixture calculation power: floodlight 200, streetlight 90, LED tube/batten variant 20 W."
+manual_energy_baseline,working_lights_min,int64,count,0,Installed minus nonworking_max; corridor value includes all installed fixtures.
+manual_energy_baseline,working_lights_max,int64,count,0,Installed minus nonworking_min; corridor value includes all installed fixtures.
+manual_energy_baseline,working_fixture_hours_min,float64,fixture-hours,0,Minimum working-light scenario times manual interval hours.
+manual_energy_baseline,manual_energy_kwh_min,float64,kWh,0,Minimum working fixture-hours times fixed rated power divided by 1000; estimated manual consumption.
+manual_energy_baseline,working_fixture_hours_max,float64,fixture-hours,0,Maximum working-light scenario times manual interval hours.
+manual_energy_baseline,manual_energy_kwh_max,float64,kWh,0,Maximum working fixture-hours times fixed rated power divided by 1000; estimated manual consumption.
+manual_energy_baseline,energy_basis,str,see definition,0,"Calculation presumes continuous ON operation at rated power, no dimming or meter measurements."
+astronomy_daily,local_date,str,see definition,0,"Calendar date in Asia/Kolkata, YYYY-MM-DD."
+astronomy_daily,civil_dawn_local,"datetime64[us, Asia/Kolkata]","ISO 8601, Asia/Kolkata (+05:30)",0,Astral dawn at solar depression 6 degrees using the campus proxy and unobstructed horizon.
+astronomy_daily,sunrise_local,"datetime64[us, Asia/Kolkata]","ISO 8601, Asia/Kolkata (+05:30)",0,"Astral sunrise at campus proxy, no local obstruction adjustment; not an OFF recommendation."
+astronomy_daily,solar_noon_local,"datetime64[us, Asia/Kolkata]","ISO 8601, Asia/Kolkata (+05:30)",0,Astral local solar noon at the campus proxy.
+astronomy_daily,sunset_local,"datetime64[us, Asia/Kolkata]","ISO 8601, Asia/Kolkata (+05:30)",0,"Astral sunset at campus proxy, no local obstruction adjustment; not an ON recommendation."
+astronomy_daily,civil_dusk_local,"datetime64[us, Asia/Kolkata]","ISO 8601, Asia/Kolkata (+05:30)",0,Astral dusk at solar depression 6 degrees using the campus proxy and unobstructed horizon.
+astronomy_daily,astronomy_latitude,float64,decimal degrees,0,"Common campus proxy latitude from the documented ASDMA source, not individual location GPS."
+astronomy_daily,astronomy_longitude,float64,decimal degrees,0,"Common campus proxy longitude from the documented ASDMA source, not individual location GPS."
+astronomy_daily,geometry_scope,str,see definition,0,"campus_proxy: common astronomical location, not verified fixture or sensor coordinates."
+astronomy_daily,source_kind,str,see definition,0,Provenance: historical station observation or deterministic Astral calculation.
+locations,installed_count_basis,str,see definition,0,"Provenance of installed count: user_assumed_not_field_counted, confirmed by the user."

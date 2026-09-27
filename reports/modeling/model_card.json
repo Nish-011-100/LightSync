@@ -1,0 +1,106 @@
+{
+  "selected_model": "Random Forest",
+  "selection_rule": "Lowest 0.7 * validation low-sun MAE + 0.3 * validation daytime MAE; baseline eligible.",
+  "low_sun_definition": "-6 <= geometric solar elevation <= 15 degrees",
+  "random_seed": 42,
+  "train_rows": 13840,
+  "validation_rows": 1820,
+  "test_rows": 4533,
+  "source_sha256": "3da568d486ffdb168a16942ee16dda884e654766574e9c929a0c39012db32419",
+  "feature_names": [
+    "minute_of_day",
+    "day_of_year",
+    "month",
+    "time_sin",
+    "time_cos",
+    "year_sin",
+    "year_cos",
+    "solar_elevation_deg"
+  ],
+  "evaluation_fit_scope": "March-August 2024 only",
+  "demo_fit_scope": "All valid historical targets; test metrics do not evaluate this refit.",
+  "prediction_mode": "historical_seasonal_profile_no_live_weather",
+  "test_status": "Reused historical test benchmark after prototype iteration; not a new unseen field test.",
+  "parameters": {
+    "bootstrap": true,
+    "ccp_alpha": 0.0,
+    "criterion": "squared_error",
+    "max_depth": 12,
+    "max_features": 1.0,
+    "max_leaf_nodes": null,
+    "max_samples": null,
+    "min_impurity_decrease": 0.0,
+    "min_samples_leaf": 10,
+    "min_samples_split": 2,
+    "min_weight_fraction_leaf": 0.0,
+    "monotonic_cst": null,
+    "n_estimators": 150,
+    "n_jobs": 2,
+    "oob_score": false,
+    "random_state": 42,
+    "verbose": 0,
+    "warm_start": false
+  },
+  "selected_test_metrics": [
+    {
+      "model": "Random Forest",
+      "segment": "all",
+      "n": 4533,
+      "mae_w_m2": 35.1104848614,
+      "rmse_w_m2": 82.86153195,
+      "r2": 0.765889818,
+      "bias_w_m2": 13.5277371148
+    },
+    {
+      "model": "Random Forest",
+      "segment": "daytime",
+      "n": 1771,
+      "mae_w_m2": 89.5026380373,
+      "rmse_w_m2": 132.563087249,
+      "r2": 0.5684901612,
+      "bias_w_m2": 34.2768741646
+    },
+    {
+      "model": "Random Forest",
+      "segment": "low_sun",
+      "n": 642,
+      "mae_w_m2": 18.9053758775,
+      "rmse_w_m2": 34.328001158,
+      "r2": 0.1905283076,
+      "bias_w_m2": 14.3920749001
+    },
+    {
+      "model": "Random Forest",
+      "segment": "dawn",
+      "n": 425,
+      "mae_w_m2": 11.8806975623,
+      "rmse_w_m2": 18.4489315266,
+      "r2": 0.6344578261,
+      "bias_w_m2": 6.4321087119
+    },
+    {
+      "model": "Random Forest",
+      "segment": "dusk",
+      "n": 217,
+      "mae_w_m2": 32.6633864027,
+      "rmse_w_m2": 53.1013282883,
+      "r2": -0.2501888565,
+      "bias_w_m2": 29.9818704299
+    },
+    {
+      "model": "Random Forest",
+      "segment": "night",
+      "n": 2592,
+      "mae_w_m2": 0.1604530169,
+      "rmse_w_m2": 0.6599296278,
+      "r2": null,
+      "bias_w_m2": 0.1604530169
+    }
+  ],
+  "limitations": [
+    "No independent 2026 weather or lux validation.",
+    "One station and less than a complete year of valid targets.",
+    "September validation is sparse; no guaranteed switching-time accuracy.",
+    "Model predicts radiation, not illuminance or lamp state."
+  ]
+}

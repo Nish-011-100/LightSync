@@ -1,0 +1,7 @@
+{
+  "rule": "Equal-weight eligible monthly folds; 0.4 dawn MAE + 0.4 dusk MAE + 0.2 daytime MAE. Minimum 30 targets per segment.",
+  "months": "June-September 2024; expanding training from March",
+  "recommended_model": "Random Forest",
+  "status": "Retrospective development validation; folds overlap previously inspected data. October onward excluded from this selection. No fresh test or field accuracy claim.",
+  "deployment": "Retain Random Forest: lowest rolling mean and worst-fold score, but near-tie with hybrid; no established statistically significant advantage."
+}

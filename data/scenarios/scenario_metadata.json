@@ -1,0 +1,17 @@
+{
+  "prediction_mode": "offline_historical_profile_scenario",
+  "selected_model": "Random Forest",
+  "model_sha256": "dacf7e689098eda84d15a109e3a8a5e39e14a69593bdf7792c6809f1574317c0",
+  "policy_sha256": "ca613f36d5a539f1abe7385cdd6a01341fcd1060b1bd72cbb9853be7342f959d",
+  "observation_intervals": 20,
+  "scenario_schedule_rows": 60,
+  "all_schedules_require_field_review": true,
+  "lux_validation": "unavailable",
+  "counts_are_scenarios_not_dated_failure_logs": true,
+  "manual_off_outside_observed_interval": "schedule_reconstruction_not_continuous_state_measurement",
+  "cost_carbon_status": "unset",
+  "not_confidence_intervals": true,
+  "decision_resolution_minutes": 1,
+  "source_cadence_minutes": 15,
+  "interpolation": "shape-preserving PCHIP; no new measured information"
+}

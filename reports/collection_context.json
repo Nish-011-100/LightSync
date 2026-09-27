@@ -1,0 +1,15 @@
+{
+  "basis": "user_confirmation_in_conversation",
+  "timezone": "Asia/Kolkata",
+  "event_start_date": "2026-09-25",
+  "event_start_period": "evening",
+  "event_start_exact_time": null,
+  "event_deadline": "2026-09-27T17:00:00+05:30",
+  "observed_night_start_dates": [
+    "2026-09-25",
+    "2026-09-26"
+  ],
+  "both_nights_independently_observed": true,
+  "observation_check_cadence_minutes": null,
+  "timing_precision_minutes": null
+}

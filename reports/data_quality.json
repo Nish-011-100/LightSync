@@ -1,0 +1,43 @@
+{
+  "status": "passed",
+  "solar": {
+    "source_rows": 33441,
+    "source_measurement_columns": 46,
+    "first_timestamp": "2024-03-07 00:00:00+05:30",
+    "last_timestamp": "2025-03-07 00:00:00+05:30",
+    "valid_radiation_rows": 20193,
+    "missing_radiation_in_source_rows": 13248,
+    "invalid_nonmissing_radiation_rows": 0,
+    "expected_grid_rows": 35041,
+    "missing_source_rows": 1600,
+    "last_valid_radiation_timestamp": "2025-01-15 01:45:00+05:30",
+    "split_counts": {
+      "train": 13840,
+      "test": 4533,
+      "validation": 1820
+    },
+    "negative_radiation_rows": 0,
+    "synthetic_measurements": 0
+  },
+  "lighting": {
+    "locations": 10,
+    "observed_intervals": 20,
+    "installed_fixtures": 2425,
+    "working_fixtures_min": 2407,
+    "working_fixtures_max": 2415,
+    "observed_nights": [
+      "2026-09-25",
+      "2026-09-26"
+    ],
+    "manual_energy_total_kwh_min": 3745.7549999999997,
+    "manual_energy_total_kwh_max": 3766.965,
+    "note": "Totals cover only the recorded intervals. Energy is estimated consumption, not waste or savings."
+  },
+  "limitations": [
+    "Station timezone interpreted as campus local; provider confirmation pending.",
+    "Individual location GPS and installed fixture models unverified.",
+    "Historical radiation and 2026 observations do not overlap.",
+    "No measured lux, recommended schedule ground truth, metered energy or computed savings.",
+    "Identical schedules on both nights retained as supplied, not expanded into more observations."
+  ]
+}

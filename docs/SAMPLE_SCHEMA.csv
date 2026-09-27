@@ -1,0 +1,18 @@
+column,dtype,nullable,description
+observation_id,str,False,Stable location ID plus ON calendar date; one observed overnight interval.
+location_id,str,False,Stable project-assigned location identifier; not a surveyed asset/GPS identifier.
+on_timestamp_local,str,False,"Observed ON date/time supplied by user, interpreted in campus local timezone."
+off_timestamp_local,str,False,"Observed OFF date/time supplied by user, interpreted in campus local timezone."
+night_start_date,str,False,"Local calendar date of the observed ON event, YYYY-MM-DD."
+manual_on_duration_hours,float64,False,Elapsed hours from observed ON to observed OFF; continuous operation is not independently verified.
+timing_basis,str,False,user_observed: switching endpoints were described by user as actual observations.
+timing_resolution_minutes,float64,True,"Observation uncertainty/cadence not supplied; missing, not assumed minute-level precision."
+source_excel_row,int64,False,One-based row in the original Fill here sheet.
+source_sheet,str,False,Name of original workbook sheet containing the observation.
+continuous_on_between_endpoints_verified,bool,False,"False: only endpoints were supplied, no continuous electrical-state log."
+location_name,str,False,"User-supplied location name, surrounding whitespace removed; spelling preserved."
+site_type,str,False,"outdoor_road or corridor, based on user classification."
+main_obstruction,str,False,User-reported category; no quantitative transmission or illuminance implied.
+installed_lights,int64,False,User-assumed installed fixture count; not a measured or field-counted inventory. Counted once across repeated nights.
+installed_count_basis,str,False,"Provenance of installed count: user_assumed_not_field_counted, confirmed by the user."
+count_estimation_method,str,False,Road count estimated using approximate length and spacing; corridor method undocumented.

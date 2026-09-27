@@ -1,0 +1,21 @@
+{
+  "features": [
+    "minute_of_day",
+    "day_of_year",
+    "month",
+    "time_sin",
+    "time_cos",
+    "year_sin",
+    "year_cos",
+    "solar_elevation_deg"
+  ],
+  "target": "solar_radiation_w_m2",
+  "excluded_from_features": [
+    "timestamp_local",
+    "source_row_number",
+    "split"
+  ],
+  "geometry_scope": "campus_proxy",
+  "mode": "historical_seasonal_profile",
+  "notes": "No contemporaneous weather, target-derived high radiation, or future measurements."
+}

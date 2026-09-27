@@ -1,0 +1,30 @@
+{
+  "mode": "offline_historical_profile_scenario",
+  "status": "demonstration_parameters_not_field_calibrated_or_lighting_standards",
+  "step_minutes": 1,
+  "source_step_minutes": 15,
+  "stable_daylight_minutes": 5,
+  "switch_on_buffer_minutes": 2,
+  "switch_off_buffer_minutes": 2,
+  "scheduling_method": "latest feasible ON and earliest feasible OFF under interpolated daylight and astronomical constraints",
+  "thresholds_lux": {
+    "outdoor_road": {"on": 20, "off": 30},
+    "corridor": {"on": 100, "off": 150}
+  },
+  "daylight_transfer": {
+    "Open sky / none": {"lower_daylight": 0.8, "central": 1.0, "higher_daylight": 1.0},
+    "Sparse trees": {"lower_daylight": 0.4, "central": 0.65, "higher_daylight": 0.85},
+    "Dense trees": {"lower_daylight": 0.1, "central": 0.25, "higher_daylight": 0.5},
+    "Mixed obstructions": {"lower_daylight": 0.2, "central": 0.4, "higher_daylight": 0.7},
+    "Building shade": {"lower_daylight": 0.08, "central": 0.2, "higher_daylight": 0.4},
+    "Roof / covered": {"lower_daylight": 0.02, "central": 0.05, "higher_daylight": 0.15}
+  },
+  "luminous_efficacy_lm_per_w": {"lower_daylight": 80, "central": 100, "higher_daylight": 120},
+  "scenario_interpretation": "Sensitivity combinations, not confidence intervals or measured site attenuation.",
+  "sunset_guard": "ON no later than sunset rounded down to a minute",
+  "sunrise_guard": "OFF no earlier than sunrise rounded up to a minute",
+  "twilight_treatment": "Station-based radiation proxy cannot resolve true twilight lux; sunset/sunrise guards prevent relying on that uncertainty overnight.",
+  "timing_precision": "One-minute decision resolution through shape-preserving interpolation of 15-minute predictions; this is not measured one-minute accuracy.",
+  "manual_comparison": "Noon-to-noon schedule reconstruction: presume ON continuously between observed endpoints and OFF elsewhere.",
+  "rate_status": "Tariff and carbon factor are unset in project_config; add documented local factors to calculate monetary or carbon results."
+}

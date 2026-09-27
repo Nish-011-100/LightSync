@@ -1,0 +1,11 @@
+location_id,location_name,map_latitude,map_longitude,map_match,map_landmark,source_url,fixture_gps_verified
+LOC001,IITG Border Road,26.1907021,91.6985883,Hostel landmark proxy; road extent unverified,,https://www.openstreetmap.org/way/1536840039,False
+LOC002,Surjyamukhi Road,26.1907021,91.6985883,Hostel landmark proxy; road extent unverified,,https://www.openstreetmap.org/way/1536840039,False
+LOC003,IIT Road,26.1907021,91.6985883,Hostel landmark proxy; road extent unverified,,https://www.openstreetmap.org/way/1536840039,False
+LOC004,Radhasura Road,26.1907021,91.6985883,Hostel landmark proxy; road extent unverified,,https://www.openstreetmap.org/way/1536840039,False
+LOC005,Godhuli Gopal Road,26.1907021,91.6985883,Hostel landmark proxy; road extent unverified,,https://www.openstreetmap.org/way/1536840039,False
+LOC006,Umiam Hostel Road,26.18863916,91.70186426000001,Hostel landmark proxy; road extent unverified,Umiam Hostel,https://www.openstreetmap.org/way/121455441,False
+LOC007,KV Road,26.1907021,91.6985883,Hostel landmark proxy; road extent unverified,,https://www.openstreetmap.org/way/1536840039,False
+LOC008,Disang Road,26.18659968,91.69663421999999,Hostel landmark proxy; road extent unverified,Disang Hostel,https://www.openstreetmap.org/way/912248048,False
+LOC009,Lohit Hostel,26.189362355555556,91.6985943,Named building footprint,Lohit Hostel,https://www.openstreetmap.org/way/640770642,False
+LOC010,Disang Hostel,26.18659968,91.69663421999999,Named building footprint,Disang Hostel,https://www.openstreetmap.org/way/912248048,False
