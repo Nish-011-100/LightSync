@@ -29,6 +29,7 @@ def read(root):
 def render(root,locations):
     st.subheader('Field observation log')
     st.write('Record what you actually see. Entries are saved locally and remain separate from predictions and the original event dataset. Use an observer alias, not personal contact details.')
+    st.info('Hosted demo: this log is shared by visitors on the same server. Use anonymous test entries only. Local storage may be reset during redeployment; export records you need to retain.')
     now=pd.Timestamp.now(tz='Asia/Kolkata')
     with st.form('field_observation',clear_on_submit=False):
         site=st.selectbox('Observed location',locations.location_id.tolist(),format_func=lambda k:locations.set_index('location_id').loc[k,'location_name'])
