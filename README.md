@@ -73,8 +73,10 @@ The **Observation log** tab saves real timestamped field checks locally and expo
 
 [Rolling evaluation](docs/MODEL_EVALUATION.md) compares three candidates over four expanding chronological folds, emphasising dawn and dusk equally. Random Forest remains selected, narrowly ahead of the hybrid; no statistically significant superiority or new unseen-test claim is made. Run `python -m src.rolling_evaluation` to reproduce.
 
+The observation log is a shared, unauthenticated demo feature on a hosted server. Use anonymous test data only; export anything needed because local storage may reset on redeployment. Durable private field logging requires authenticated external storage.
+
 ## Streamlit Community Cloud
 
 Deploy `Nish-011-100/LightSync`, branch `main`, entrypoint `app.py`, with Python 3.12. Runtime dependencies are pinned to the tested local versions, including scikit-learn and its numerical dependencies for saved-model compatibility. Server address is left to the hosting provider. No secrets are required for the public weather endpoint. Local startup remains `python -m streamlit run app.py`; to restrict a local session to loopback, add `--server.address 127.0.0.1`.
 
-The observation log is a shared, unauthenticated demo feature on a hosted server. Use anonymous test data only; export anything needed because local storage may reset on redeployment. Durable private field logging requires authenticated external storage.
+
