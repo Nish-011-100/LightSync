@@ -22,7 +22,7 @@ Manufacturer power-reference URLs are recorded in `config/project_config.json` a
 
 ## AI use
 
-An AI coding assistant assisted with cleaning code, notebook implementation, model comparison, tests, documentation and dashboard design. Local scikit-learn models predict historical radiation from calendar and sun-position features. Random Forest was selected by chronological validation against simple alternatives. Target rows: 13,840 train, 1,820 validation and 4,533 test. The test benchmark has been inspected during development; it is not a new field trial. The demo model is refitted on the historical targets. The offline demo needs no image model, paid AI API or GPU. Optional Open-Meteo forecasts are supported as described below.
+An AI coding assistant assisted with cleaning code, documentation and dashboard design. Local scikit-learn models predict historical radiation from calendar and sun-position features. Random Forest was selected by chronological validation against simple alternatives. Target rows: 13,840 train, 1,820 validation and 4,533 test. The test benchmark has been inspected during development; it is not a new field trial. The demo model is refitted on the historical targets. The offline demo needs no image model, paid AI API or GPU. Optional Open-Meteo forecasts are supported as described below.
 
 ## Impact and limits
 
