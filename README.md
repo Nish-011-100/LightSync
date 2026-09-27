@@ -1,5 +1,7 @@
 # LightSync
 
+**Live demo:** [Open LightSync — IIT Guwahati](https://lightsync-iitg.streamlit.app/)
+
 Daylight-aware lighting schedule proposals for ten IIT Guwahati road and corridor zones. The prototype combines observed manual switching times, historical solar radiation and obstruction scenarios to compare lighting duration and estimated energy use.
 
 ## Submission contents
